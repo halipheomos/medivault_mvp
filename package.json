@@ -1,0 +1,32 @@
+{
+  "name": "medivault_mvp",
+  "version": "1.0.0",
+  "description": "MVP for medivault storage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halipheomos/medivault_mvp.git"
+  },
+  "keywords": [
+    "medivault",
+    "healthcare",
+    "storage"
+  ],
+  "author": "Casey Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halipheomos/medivault_mvp/issues"
+  },
+  "homepage": "https://github.com/halipheomos/medivault_mvp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.36"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
